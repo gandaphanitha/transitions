@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    background-color: aqua;
+    /* transition-property: width height background-color; */
+    /* transition-property: width height background-color; */
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    transition-timing-function: ease-out; 
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: linear;  */
+    /* transition-timing-function: steps(4); */
+     
+
+}
+.parent:hover{
+    width: 350px;
+    /* height: 350px;
+    background-color: chartreuse; */
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    height: 350px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 150px;
+    width: 150px;
+    border: 2px solid green;
+    font-size: 23px;
+    text-align: center;
+    line-height: 150px;
+    animation-name: animation-phanitha;
+    animation-duration: 4s;
+    /* animation-iteration-count: in  */
+    /* animation-direction: alternate-reverse; */
+
+
+}
+ @keyframes animation-phanitha {
+    from{
+       border-radius: 10px;
+       background-color: brown;
+       color: antiquewhite;
+    }
+    to{
+      border-radius: 40px;
+      background-color: chartreuse;
+      color: red;
+    }
+}
+    
+/* @keyframe animation-phanitha{
+    from{
+        border-radius:10px;
+        background-color:brown;
+        color:antiquewhite;
+    }
+    to{
+        border-radius:40px;
+        background-color:chartreuse;
+        color:red;
+    }
+} */
